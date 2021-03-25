@@ -6,6 +6,9 @@ sudo apt install vim git python3 python3-pip -y
 git config --global user.email "chlwlgp132@gmail.com"
 git config --global user.name "JHJee"
 
+mv ./vimrc ~/.vimrc
+cp ./bash_aliases ~/.bash_aliases && source ~/.bashrc
+
 # Docker Installation
 # sudo apt update && sudo apt upgrade -VV
 # sudo reboot
