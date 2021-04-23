@@ -2,7 +2,7 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt autoremove
 sudo apt clean
-sudo apt install vim git python3 python3-pip -y
+sudo apt install vim git python3 python3-pip httpie -y
 git config --global user.email "chlwlgp132@gmail.com"
 git config --global user.name "JHJee"
 
