@@ -5,6 +5,8 @@ sudo apt clean
 sudo apt install -y vim git python3 python3-pip httpie screen
 git config --global user.email "chlwlgp132@gmail.com"
 git config --global user.name "JHJee"
+# for cross-platform line ending compatibility (LF for Linux & CRLF for Win)
+git config --global core.autocrlf true
 
 mv ./vimrc ~/.vimrc
 cp ./bash_aliases ~/.bash_aliases && source ~/.bashrc
