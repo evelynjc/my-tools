@@ -14,3 +14,8 @@ zcat /var/log/apt/history.log.*.gz | cat - /var/log/apt/history.log | grep -Po '
 ~~~
 doskey TO_THIS = FROM_THIS_CMD_COMMAND
 ~~~
+
+* SSH Connection Issue
+~~~
+ssh-keygen -R <IP-ADDRESS or DOMAIN>
+~~~
